@@ -37,6 +37,7 @@ The UART controller consists of the following blocks:
 ---
 
 ## 🗂️ Project Directory Structure
+
 UART_Controller/
 │
 ├── rtl/
