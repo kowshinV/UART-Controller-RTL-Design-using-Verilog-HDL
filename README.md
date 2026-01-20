@@ -1,5 +1,5 @@
 
-## 📡 UART Controller – RTL Design (Verilog HDL)
+# 📡 UART Controller – RTL Design (Verilog HDL)
 
 ---
 
