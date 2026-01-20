@@ -1,7 +1,7 @@
 
 # 📡 UART Controller – RTL Design (Verilog HDL)
 
-#📌 Project Overview
+# 📌 Project Overview
 * This repository contains the RTL design and verification of a UART (Universal Asynchronous Receiver Transmitter) implemented using Verilog HDL.
 * The design demonstrates reliable parallel-to-serial transmission and serial-to-parallel reception using asynchronous communication.
 * This project was developed as a first industry-oriented VLSI RTL project and verified using Synopsys VCS and DVE.
