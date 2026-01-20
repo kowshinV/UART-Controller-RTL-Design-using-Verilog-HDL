@@ -8,7 +8,7 @@
 
 ---
 
-#🎯 Key Objectives
+## 🎯 Key Objectives
 * Understand UART protocol fundamentals
 * Design UART TX and RX at RTL level
 * Implement baud rate–based timing control
@@ -17,7 +17,7 @@
 
 ---
 
-#⚙️ UART Specifications
+## ⚙️ UART Specifications
 * Communication Type: Asynchronous serial
 * Data Width: 8 bits
 * Frame Format: 1 Start bit, 8 Data bits, 1 Stop bit
@@ -26,7 +26,7 @@
 
 ---
 
-🧱 Architecture Overview
+## 🧱 Architecture Overview
 The UART controller consists of the following blocks:
 * Baud Rate Generator – Generates timing tick for UART operation
 * UART Transmitter (TX) – Converts parallel data to serial format
@@ -34,7 +34,9 @@ The UART controller consists of the following blocks:
 * Top Module – Integrates all UART sub-blocks
 * Testbench – Verifies TX–RX loopback functionality
 
-🗂️ Project Directory Structure
+---
+
+## 🗂️ Project Directory Structure
 UART_Controller/
 │
 ├── rtl/
@@ -52,26 +54,34 @@ UART_Controller/
 │
 └── README.md
 
-📊 Simulation & Verification
+---
+
+## 📊 Simulation & Verification
 * Simulator: Synopsys VCS
 * Waveform Viewer: Synopsys DVE
 * Verification Method: TX → RX loopback
 
-Test Case:
+---
+
+## Test Case:
 Transmitted Data: 8'hA5
 Received Data: 8'hA5
 ✔ Correct start bit detection
 ✔ LSB-first transmission
 ✔ Accurate serial-to-parallel reconstruction
 
-🔗 View Results:
+---
+
+## 🔗 View Results:
 📈 Waveforms (DVE Screenshots):
 👉 Click here to view waveforms
+
 🧩 UART Block / Schematic Diagram:
 👉 Click here to view diagrams
 
+---
 
-🧑‍💻 RTL Implementation
+## 🧑‍💻 RTL Implementation
 🔹 Top Module – uart.v
 
 
@@ -85,18 +95,24 @@ Received Data: 8'hA5
 
 🔹 Testbench – uart_tb.v
 
-🧠 Learning Outcomes
-*UART protocol understanding
-*Parallel vs serial data handling
-*RTL design using Verilog HDL
-*Timing-based sampling concepts
-*Professional simulation workflow with Synopsys tools
+---
 
-🚀 Future Enhancements
-*Parity bit support
-*Configurable baud rates
-*FIFO buffering
-*Error detection and framing error flags
+## 🧠 Learning Outcomes
+* UART protocol understanding
+* Parallel vs serial data handling
+* RTL design using Verilog HDL
+* Timing-based sampling concepts
+* Professional simulation workflow with Synopsys tools
+
+---
+
+## 🚀 Future Enhancements
+* Parity bit support
+* Configurable baud rates
+* FIFO buffering
+* Error detection and framing error flags
+
+---
 
 👨‍💻 Author
 Kowshin
