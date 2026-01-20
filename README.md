@@ -36,27 +36,6 @@ The UART controller consists of the following blocks:
 
 ---
 
-## 🗂️ Project Directory Structure
-
-UART_Controller/
-│
-├── rtl/
-│   ├── uart.v                  # Top module
-│   ├── baud_rate_generator.v   # Baud rate generator
-│   ├── uart_tx.v               # UART transmitter
-│   └── uart_rx.v               # UART receiver
-│
-├── tb/
-│   └── uart_tb.v               # Testbench
-│
-├── docs/
-│   ├── waveforms/              # Simulation waveforms
-│   └── diagrams/               # Block / schematic diagrams
-│
-└── README.md
-
----
-
 ## 📊 Simulation & Verification
 * Simulator: Synopsys VCS
 * Waveform Viewer: Synopsys DVE
