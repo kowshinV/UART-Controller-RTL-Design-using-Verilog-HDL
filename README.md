@@ -66,6 +66,7 @@ UART_Controller/
 ## Test Case:
 * Transmitted Data: 8'hA5
 * Received Data: 8'hA5
+
 ✔ Correct start bit detection
 ✔ LSB-first transmission
 ✔ Accurate serial-to-parallel reconstruction
