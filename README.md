@@ -84,7 +84,7 @@ UART_Controller/
 ---
 
 ## 🧑‍💻 RTL Implementation
-🔹 Top Module –[uart.v:](./uart.v) 
+🔹 Top Module –[uart.v](./uart.v) 
 
 
 🔹 Baud Rate Generator – baud_rate_generator.v
