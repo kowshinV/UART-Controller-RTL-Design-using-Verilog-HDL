@@ -86,16 +86,13 @@ UART_Controller/
 ## 🧑‍💻 RTL Implementation
 🔹 Top Module –[uart.v](./uart.v) 
 
+🔹 Baud Rate Generator – [baud_rate_generator.v](./baud_rate_generator.v) 
 
-🔹 Baud Rate Generator – baud_rate_generator.v
-
-
-🔹 UART Transmitter – uart_tx.v
+🔹 UART Transmitter – [uart_tx.v](./uart_tx.v) 
   
-🔹 UART Receiver – uart_rx.v
+🔹 UART Receiver – [uart_rx.v](./uart_rx.v) 
 
-
-🔹 Testbench – uart_tb.v
+🔹 Testbench – [uart_tb.v](./uart_tb.v) 
 
 ---
 
