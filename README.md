@@ -75,10 +75,10 @@ UART_Controller/
 
 ## 🔗 View Results:
 📈 Waveforms (DVE Screenshots):
-[👉 Click here to view waveforms:](./Kowshin_POC_for_Fisherman_safety.pdf)
+[👉 Click here to view waveforms:](./cdw.png)
 
 🧩 UART Block / Schematic Diagram:
-[👉 Click here to view diagram:](./Kowshin_POC_for_Fisherman_safety.pdf)
+[👉 Click here to view diagram:](./cd.png)
 
 ---
 
