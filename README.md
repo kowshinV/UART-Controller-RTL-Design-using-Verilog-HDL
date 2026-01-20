@@ -93,7 +93,6 @@ The UART controller consists of the following blocks:
 ---
 
 ## 👨‍💻 Author
-
-Kowshin
+Kowshin.V,
 ECE Student | Aspiring VLSI Engineer
 RTL Design | Verilog HDL | UART | Synopsys
