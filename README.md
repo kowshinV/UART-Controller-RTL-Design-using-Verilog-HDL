@@ -1,26 +1,30 @@
 
 # 📡 UART Controller – RTL Design (Verilog HDL)
 
-📌 Project Overview
+#📌 Project Overview
 * This repository contains the RTL design and verification of a UART (Universal Asynchronous Receiver Transmitter) implemented using Verilog HDL.
 * The design demonstrates reliable parallel-to-serial transmission and serial-to-parallel reception using asynchronous communication.
 * This project was developed as a first industry-oriented VLSI RTL project and verified using Synopsys VCS and DVE.
 
 ---
 
-🎯 Key Objectives
+#🎯 Key Objectives
 * Understand UART protocol fundamentals
 * Design UART TX and RX at RTL level
 * Implement baud rate–based timing control
 * Verify functionality through waveform analysis
 * Gain hands-on experience with Synopsys tools
 
-⚙️ UART Specifications
+---
+
+#⚙️ UART Specifications
 * Communication Type: Asynchronous serial
 * Data Width: 8 bits
 * Frame Format: 1 Start bit, 8 Data bits, 1 Stop bit
 * Bit Order: LSB first
 * Error Handling: Not included (ideal conditions)
+
+---
 
 🧱 Architecture Overview
 The UART controller consists of the following blocks:
